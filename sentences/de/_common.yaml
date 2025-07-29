@@ -569,7 +569,7 @@ expansion_rules:
   garage: "([die ]Garage[n]|[das ]Garagentor|[die ]Garagentore)"
   alle_garagen: "<alle> (Garagen[tore])"
   tor: "[(das|die) ]Tor[e]"
-  alle_tore: "<alle> (Tore|Garagentore)"
+  alle_tore: "<alle> Tore"
   luefter: "[(der|die|den) ](Ventilator[en]|Lüfter)"
   alle_luefter: "<alle> (Ventilatoren|Lüfter)"
   brightness: "{brightness}[ (Prozent|%)]"
