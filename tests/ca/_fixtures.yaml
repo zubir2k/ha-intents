@@ -119,6 +119,10 @@ entities:
   - name: Pau
     id: person.pau
     state: not_home
+  - name: Puig
+    id: person.puig
+    state: home
+    is_exposed: false
 
   - name: Termostat menjador
     id: climate.termostat_menjador
