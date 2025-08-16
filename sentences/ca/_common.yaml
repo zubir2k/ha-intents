@@ -170,6 +170,12 @@ lists:
       - in: (show|sèrie [de TV|de televisió]|[l']episodi|capítol)
         out: tv_show
 
+  fan_speed:
+    range:
+      type: percentage
+      from: 0
+      to: 100
+
   volume_step_up:
     range:
       type: percentage
@@ -216,6 +222,7 @@ expansion_rules:
   baixar: "[a]baixa[r|t|-li]"
   configura: "(posa[r]|puja[r]|configura[r]|ajusta[r]|canvia[r]|establ(ir|eix|ix))"
   posició: "{position}[<percent>]"
+  fan_speed: "{fan_speed:percentage}[<percent>]"
   percent: "(%|per[ ]cent)"
   cancela: "cancel[·l]a[r|t]"
   seguent: "següent|(proper|pròxim)[a]"
