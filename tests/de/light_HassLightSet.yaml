@@ -269,6 +269,15 @@ tests:
       - Setze die Helligkeit des Lichts auf 10
       - Setze die Helligkeit des Lichtes auf 10 Prozent
       - auf 10% dimmen
+      - Setze die Helligkeit hier im Raum auf 10%
+      - stell die Helligkeit in diesem Raum auf 10% ein
+      - Setze die Helligkeit der Lampen hier im Raum auf 10%
+      - stell die Helligkeit der Leuchten in diesem Raum auf 10% ein
+      - Helligkeit in diesem Raum auf 10% einstellen
+      - Helligkeit in diesem Raum auf 10% dimmen
+      - die Helligkeit der Lichter im Raum auf 10% einstellen
+      - dimme alle lichter in diesem Raum auf 10%
+      - Lichter hier auf 10% dimmen
     intent:
       name: HassLightSet
       context:
