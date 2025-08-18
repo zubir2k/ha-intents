@@ -370,6 +370,14 @@ tests:
       - Lampen blau
       - Licht Farbe auf blau ändern
       - Lampen blau leuchten lassen
+      - setze die Farbe des Lichtes hier auf blau
+      - stelle die Farbe der Lampen in diesem Raum auf blau
+      - Alle Lichter in diesem Raum blau
+      - verändere die Farbe des Lichts in diesem Raum zu blau
+      - Farbe des Lichts im Raum auf blau ändern
+      - alle Lampen hier Farbe auf blau stellen
+      - Das Licht in diesem Raum blau leuchten lassen
+      - Färbe alle Lampen im Raum blau ein
     intent:
       name: HassLightSet
       context:
