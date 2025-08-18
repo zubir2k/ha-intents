@@ -24,9 +24,9 @@ intents:
         response: brightness
       # brightness by area/floor
       - sentences:
-          - "[<setze> ][die ]Helligkeit[ (<licht>|<lichtes>|<lichter>|<alle_lichter>)] <area_floor>[ auf] <brightness>"
-          - "<stelle> [die ]Helligkeit[ (<licht>|<lichtes>|<lichter>|<alle_lichter>)] <area_floor>[ auf] <brightness>[ ein]"
-          - "[die ]Helligkeit[ (<licht>|<lichtes>|<lichter>|<alle_lichter>)] <area_floor> auf <brightness> <setzen_end_of_sentence>"
+          - "[<setze> ][die ]Helligkeit[ (<licht_ohne_artikel>|<lichtes_mit_artikel>|<lichter>|<alle_lichter>)] <area_floor>[ auf] <brightness>"
+          - "<stelle> [die ]Helligkeit[ (<licht_ohne_artikel>|<lichtes_mit_artikel>|<lichter>|<alle_lichter>)] <area_floor>[ auf] <brightness>[ ein]"
+          - "[die ]Helligkeit[ (<licht_ohne_artikel>|<lichtes_mit_artikel>|<lichter>|<alle_lichter>)] <area_floor> auf <brightness> <setzen_end_of_sentence>"
           - "dimme[ (<licht>|<lichter>|<alle_lichter>)] <area_floor>[ (auf|zu)] <brightness>"
           - "[<licht>|<lichter>|<alle_lichter>] <area_floor>[ (auf|zu)] <brightness> dimmen"
           - "<area_floor> [auf ]{brightness_level_max:brightness}"
@@ -56,9 +56,9 @@ intents:
         response: color
       # color by area/floor
       - sentences:
-          - "[<setzen> ][(<licht>|[[die ]Farbe ][(<lichtes>|<lichter>|<alle_lichter>)])] <area_floor>[ auf] {color}"
-          - "(änder[e]|veränder[e]) (<licht>|[[die ]Farbe ][(<lichtes>|<lichter>|<alle_lichter>)]) <area_floor> zu {color}"
-          - "[die ]Farbe[ (<licht>|<lichtes>|<lichter>|<alle_lichter>)] <area_floor>[ (auf|zu)] {color} <setzen_end_of_sentence>"
+          - "[<setzen> ][(<licht>|[[die ]Farbe ][(<lichtes_mit_artikel>|<lichter>|<alle_lichter>)])] <area_floor>[ auf] {color}"
+          - "(änder[e]|veränder[e]) (<licht>|[[die ]Farbe ][(<lichtes_mit_artikel>|<lichter>|<alle_lichter>)]) <area_floor> zu {color}"
+          - "[die ]Farbe[ (<licht_ohne_artikel>|<lichtes_mit_artikel>|<lichter>|<alle_lichter>)] <area_floor>[ (auf|zu)] {color} <setzen_end_of_sentence>"
           - "[(<licht>|<lichtes>|<lichter>|<alle_lichter>) ]<area_floor> Farbe[ (auf|zu)] {color}[ <setzen_end_of_sentence>]"
           - "[(<licht>|<lichter>|<alle_lichter>) ]<area_floor> [Farbe ]{color} <leuchten_lassen>"
           - "Färbe[ (<licht>|<lichter>|<alle_lichter>)] <area_floor> {color}[ ein]"

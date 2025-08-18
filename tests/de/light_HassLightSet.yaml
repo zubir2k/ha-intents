@@ -209,6 +209,7 @@ tests:
     response: Helligkeit eingestellt
   # brightness by floor
   - sentences:
+      - setze die Helligkeit der Lampe im Erdgeschoss auf 15%
       - Stelle die Helligkeit im Erdgeschoss auf 15
       - Stelle Helligkeit im Erdgeschoss auf 15
       - Stelle Helligkeit Erdgeschoss auf 15
