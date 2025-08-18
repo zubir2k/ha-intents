@@ -161,7 +161,7 @@ tests:
         name: Schlafzimmerlampe
         brightness: 10
     response: Helligkeit eingestellt
-  # brightness by area - maximum
+  # brightness by area - brightness_level_max
   - sentences:
       - Schlafzimmer hell
       - Schlafzimmer auf hell
@@ -174,6 +174,49 @@ tests:
       slots:
         area: Schlafzimmer
         brightness: 100
+    response: Helligkeit eingestellt
+  # brightness by area - max
+  - sentences:
+      - ändere das Schlafzimmer auf die maximale Helligkeitsstufe
+      - Stell das Schlafzimmer auf die maximale Helligkeit ein
+      - Schlafzimmer auf maximale Helligkeit dimmen
+      - änder die Helligkeit im Schlafzimmer auf maximum
+      - ändere die Helligkeit im schlafzimmer auf maximale Stufe
+      - stell die Helligkeit im Schlafzimmer auf das maximum ein
+      - stelle die Helligkeit im Schlafzimmer auf die maximale Stufe ein
+      - Helligkeit im Schlafzimmer auf die maximale Stufe einstellen
+      - die Helligkeit im Schlafzimmer auf maximum dimmen
+      - Schlafzimmer maximale Helligkeit
+      - Schlafzimmer maximale Helligkeitsstufe
+      - Schlafzimmer maximum
+      - Schlafzimmer Helligkeit maximale Stufe
+    intent:
+      name: HassLightSet
+      slots:
+        area: Schlafzimmer
+        brightness: 100
+    response: Helligkeit eingestellt
+  # brightness by area - min
+  - sentences:
+      - ändere das Schlafzimmer auf die minimale Helligkeitsstufe
+      - Schlafzimmer auf minimale Helligkeit
+      - Stell das Schlafzimmer auf die minimale Helligkeit ein
+      - Schlafzimmer auf minimale Helligkeit dimmen
+      - änder die Helligkeit im Schlafzimmer auf minimum
+      - ändere die Helligkeit im schlafzimmer auf minimale Stufe
+      - stell die Helligkeit im Schlafzimmer auf das minimum ein
+      - stelle die Helligkeit im Schlafzimmer auf die minimale Stufe ein
+      - Helligkeit im Schlafzimmer auf die minimale Stufe einstellen
+      - die Helligkeit im Schlafzimmer auf minimum dimmen
+      - Schlafzimmer minimale Helligkeit
+      - Schlafzimmer minimale Helligkeitsstufe
+      - Schlafzimmer minimum
+      - Schlafzimmer Helligkeit minimale Stufe
+    intent:
+      name: HassLightSet
+      slots:
+        area: Schlafzimmer
+        brightness: 1
     response: Helligkeit eingestellt
   # brightness by area
   - sentences:
@@ -206,6 +249,49 @@ tests:
       slots:
         area: Schlafzimmer
         brightness: 11
+    response: Helligkeit eingestellt
+  # brightness by floor - max
+  - sentences:
+      - ändere das Erdgeschoss auf die maximale Helligkeitsstufe
+      - Stell das Erdgeschoss auf die maximale Helligkeit ein
+      - Erdgeschoss auf maximale Helligkeit dimmen
+      - änder die Helligkeit im Erdgeschoss auf maximum
+      - ändere die Helligkeit im Erdgeschoss auf maximale Stufe
+      - stell die Helligkeit im Erdgeschoss auf das maximum ein
+      - stelle die Helligkeit im Erdgeschoss auf die maximale Stufe ein
+      - Helligkeit im Erdgeschoss auf die maximale Stufe einstellen
+      - die Helligkeit im Erdgeschoss auf maximum dimmen
+      - Erdgeschoss maximale Helligkeit
+      - Erdgeschoss maximale Helligkeitsstufe
+      - Erdgeschoss maximum
+      - Erdgeschoss Helligkeit maximale Stufe
+    intent:
+      name: HassLightSet
+      slots:
+        floor: Erdgeschoss
+        brightness: 100
+    response: Helligkeit eingestellt
+  # brightness by floor - min
+  - sentences:
+      - ändere das Erdgeschoss auf die minimale Helligkeitsstufe
+      - Erdgeschoss auf minimale Helligkeit
+      - Stell das Erdgeschoss auf die minimale Helligkeit ein
+      - Erdgeschoss auf minimale Helligkeit dimmen
+      - änder die Helligkeit im Erdgeschoss auf minimum
+      - ändere die Helligkeit im Erdgeschoss auf minimale Stufe
+      - stell die Helligkeit im Erdgeschoss auf das minimum ein
+      - stelle die Helligkeit im Erdgeschoss auf die minimale Stufe ein
+      - Helligkeit im Erdgeschoss auf die minimale Stufe einstellen
+      - die Helligkeit im Erdgeschoss auf minimum dimmen
+      - Erdgeschoss minimale Helligkeit
+      - Erdgeschoss minimale Helligkeitsstufe
+      - Erdgeschoss minimum
+      - Erdgeschoss Helligkeit minimale Stufe
+    intent:
+      name: HassLightSet
+      slots:
+        floor: Erdgeschoss
+        brightness: 1
     response: Helligkeit eingestellt
   # brightness by floor
   - sentences:
