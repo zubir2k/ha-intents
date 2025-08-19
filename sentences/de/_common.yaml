@@ -587,7 +587,7 @@ expansion_rules:
   setze: "(setz[e]|änder[e]|veränder[e])"
   stelle: "stell[e]"
   setzen_end_of_sentence: "(setzen|stellen|einstellen|ändern|verändern)"
-  abdeckung: "[(das|die|der|den) ](Rollo[s]|Abdeckung[en]|Roll[l](a|ä)den|Jalousie[n]|Raffstore[s]|Markise[n]|Vorhang|Vorhänge|Beschattung[en]|Gardine[n])"
+  abdeckung: "([(der|das|den) ]Rollo|[(der|den) ](Roll[l]aden|Vorhang)|[den ]Vorhängen|[(das|die|der|den) ]Raffstore[s]|[(der|die) ](Markise|Gardine|Beschattung|Jalousie|Abdeckung|Rollos|Vorhänge)|[(der|die|den) ](Markisen|Gardinen|Beschattungen|Jalousien|Abdeckungen|Roll[l]äden))"
   alle_abdeckungen: "<alle> (Rollos|Abdeckungen|Roll[l](a|ä)den|Jalousien|Raffstores|Markisen|Vorhänge|Beschattungen|Gardine[n])"
   fenster: "[(das|die) ]Fenster"
   alle_fenster: "<alle> Fenster"
