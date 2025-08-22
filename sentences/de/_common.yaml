@@ -579,7 +579,6 @@ expansion_rules:
   zu_dem: "(zu[ dem]|zum)"
   alle: "((alle|sämtliche)|jede[r|s|n]|die (ganze|komplette)|die (ganzen|kompletten))"
   alle_genitiv: "((alle|sämtliche)(r| der)|jede[r|s|n] der|die (ganzen|kompletten) der|der (ganzen|kompletten|sämtlichen)[ der])"
-  alle_genitiv_natural_subset: "(aller|alle der|jede[r|s] der|sämtlicher|der (ganzen|kompletten))"
   schliessen: "schlie(ß|ss)[e]"
   schliessen_end_of_sentence: "(schlie(ß|ss)en|zumachen|zu machen)"
   öffnen_end_of_sentence: "(öffnen|aufmachen|auf machen)"
