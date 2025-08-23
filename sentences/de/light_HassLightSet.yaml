@@ -54,7 +54,8 @@ intents:
             slot: true
       # color by name
       - sentences:
-          - "[<setzen> ][[die ]Farbe[ <von_dem>] ]<name>[ auf] {color}"
+          - "[<setze> ][[die ]Farbe[ <von_dem>] ]<name>[ auf] {color}"
+          - "<stelle> [[die ]Farbe[ <von_dem>] ]<name>[ auf] {color}[ ein]"
           - "(änder[e]|veränder[e]) [[die ]Farbe[ <von_dem>] ]<name> zu {color}"
           - "[[die ]Farbe[ <von_dem>] ]<name>[ (auf|zu)] {color} <setzen_end_of_sentence>"
           - "<name>[ Farbe][ (auf|zu)] {color}[ <setzen_end_of_sentence>]"
@@ -76,7 +77,8 @@ intents:
         response: color
       # color by satellite area
       - sentences:
-          - "[<setzen> ][(<licht>|[[die ]Farbe ][(<lichtes_mit_artikel>|<lichter>|<alle_lichter>)]) ][<hier> ][auf ]{color}"
+          - "[<setze> ][(<licht>|[[die ]Farbe ][(<lichtes_mit_artikel>|<lichter>|<alle_lichter>)]) ][<hier> ][auf ]{color}"
+          - "<stelle> [(<licht>|[[die ]Farbe ][(<lichtes_mit_artikel>|<lichter>|<alle_lichter>)]) ][<hier> ][auf ]{color}[ ein]"
           - "(änder[e]|veränder[e]) (<licht>|[[die ]Farbe ][(<lichtes_mit_artikel>|<lichter>|<alle_lichter>)])[ <hier>] zu {color}"
           - "[die ]Farbe[ (<licht_ohne_artikel>|<lichtes_mit_artikel>|<lichter>|<alle_lichter>)][ <hier>][ (auf|zu)] {color} <setzen_end_of_sentence>"
           - "[(<licht>|<lichtes_mit_artikel>|<lichter>|<alle_lichter>) ][<hier> ]Farbe[ (auf|zu)] {color}[ <setzen_end_of_sentence>]"
