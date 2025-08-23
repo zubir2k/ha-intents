@@ -614,7 +614,7 @@ expansion_rules:
   schloss: "([das ]Schloss|[die ]Schlösser)"
   sperren: "(sperr|schlie(ss|ß))[e|en]"
   entsperren: "(entsperr[e|en]|aufschlie(ss|ß)[e|en]|öffne[n]|entrieg(el[n]|le))"
-  absperren: "(zu|ab)<sperren>|verrieg(el|le)[n]"
+  absperren: "((zu|ab)<sperren>|verrieg(el[n]|le))"
   aktivieren: "aktivier[e|en]"
   deaktivieren: "de<aktivieren>"
   ausfuehren: "(start[e|en]|ausführen)"
