@@ -150,6 +150,8 @@ tests:
       - Helligkeit von Schlafzimmerlampe 10%
       - Helligkeit Schlafzimmerlampe auf 10%
       - Helligkeit Schlafzimmerlampe 10%
+      - Helligkeit Schlafzimmerlampe auf 10% dimmen
+      - die Helligkeit von der Schlafzimmerlampe auf 10% dimmen
       - Schlafzimmerlampe Helligkeit auf 10 %
       - Schlafzimmerlampe Helligkeit zu 10 %
       - Schlafzimmerlampe Helligkeit 10 %
@@ -244,6 +246,9 @@ tests:
       - Dimme das Licht im Schlafzimmer auf 11
       - Setze die Helligkeit des Lichts im Schlafzimmer auf 11
       - Setze die Helligkeit des Lichtes im Schlafzimmer auf 11
+      - Die Helligkeit der Lampen im Schlafzimmer auf 11 Prozent dimmen
+      - Helligkeit aller Lampen im Schlafzimmer auf 11 Prozent dimmen
+      - Helligkeit im Schlafzimmer auf 11 Prozent dimmen
     intent:
       name: HassLightSet
       slots:
@@ -320,6 +325,9 @@ tests:
       - Dimme das Licht im Erdgeschoss auf 15
       - Setze die Helligkeit des Lichts im Erdgeschoss auf 15
       - Setze die Helligkeit des Lichtes im Erdgeschoss auf 15
+      - Die Helligkeit der Lampen im Erdgeschoss auf 15 Prozent dimmen
+      - Helligkeit aller Lampen im Erdgeschoss auf 15 Prozent dimmen
+      - Helligkeit im Erdgeschoss auf 15 Prozent dimmen
     intent:
       name: HassLightSet
       slots:

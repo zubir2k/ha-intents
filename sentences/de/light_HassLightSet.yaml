@@ -6,7 +6,7 @@ intents:
       - sentences:
           - "<setze> [die ]Helligkeit[ (von|vom)] <name>[ auf] <brightness>"
           - "<stelle> [die ]Helligkeit[ (von|vom)] <name>[ auf] <brightness>[ ein]"
-          - "[die ]Helligkeit[ (von|vom)] <name>[ auf] <brightness>[ <setzen_end_of_sentence>]"
+          - "[die ]Helligkeit[ (von|vom)] <name>[ auf] <brightness>[ (<setzen_end_of_sentence>|dimmen)]"
           - "dimme[ [die ]Helligkeit[ (von|vom)]] <name>[ (auf|zu)] <brightness>"
           - "<name>[ (auf|zu)] <brightness>[ dimmen]"
           - "<name> Helligkeit[ (auf|zu)] <brightness>"
@@ -26,7 +26,7 @@ intents:
       - sentences:
           - "[<setze> ][die ]Helligkeit[ (<licht_ohne_artikel>|<lichtes_mit_artikel>|<lichter>|<alle_lichter>)] <area_floor>[ auf] <brightness>"
           - "<stelle> [die ]Helligkeit[ (<licht_ohne_artikel>|<lichtes_mit_artikel>|<lichter>|<alle_lichter>)] <area_floor>[ auf] <brightness>[ ein]"
-          - "[die ]Helligkeit[ (<licht_ohne_artikel>|<lichtes_mit_artikel>|<lichter>|<alle_lichter>)] <area_floor> auf <brightness> <setzen_end_of_sentence>"
+          - "[die ]Helligkeit[ (<licht_ohne_artikel>|<lichtes_mit_artikel>|<lichter>|<alle_lichter>)] <area_floor> auf <brightness> (<setzen_end_of_sentence>|dimmen)"
           - "dimme[ (<licht>|<lichter>|<alle_lichter>)] <area_floor>[ (auf|zu)] <brightness>"
           - "[(<licht>|<lichter>|<alle_lichter>) ]<area_floor>[ (auf|zu)] <brightness> dimmen"
           # max - brightness_level_max
