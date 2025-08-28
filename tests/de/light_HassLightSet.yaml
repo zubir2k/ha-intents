@@ -54,6 +54,9 @@ tests:
       - Helligkeit der Schlafzimmerlampe maximal
       - Schlafzimmerlampe maximale Helligkeitsstufe
       - Schlafzimmerlampe Helligkeit maximale Stufe
+      - Schlafzimmerlampe Helligkeit maximal
+      - Schlafzimmerlampe auf maximale Helligkeit
+      - Schlafzimmerlampe hell
     intent:
       name: HassLightSet
       slots:
@@ -116,6 +119,8 @@ tests:
       - Helligkeit der Schlafzimmerlampe minimal
       - Schlafzimmerlampe minimale Helligkeitsstufe
       - Schlafzimmerlampe Helligkeit minimale Stufe
+      - Schlafzimmerlampe Helligkeit minimal
+      - Schlafzimmerlampe auf minimale Helligkeit
     intent:
       name: HassLightSet
       slots:
@@ -214,6 +219,7 @@ tests:
       - Schlafzimmer minimale Helligkeitsstufe
       - Schlafzimmer minimum
       - Schlafzimmer Helligkeit minimale Stufe
+      - Schlafzimmer Helligkeit minimal
     intent:
       name: HassLightSet
       slots:
@@ -270,6 +276,8 @@ tests:
       - Erdgeschoss maximale Helligkeitsstufe
       - Erdgeschoss maximum
       - Erdgeschoss Helligkeit maximale Stufe
+      - Erdgeschoss auf maximale Helligkeit
+      - Erdgeschoss Helligkeit maximal
     intent:
       name: HassLightSet
       slots:
@@ -292,6 +300,7 @@ tests:
       - Erdgeschoss minimale Helligkeitsstufe
       - Erdgeschoss minimum
       - Erdgeschoss Helligkeit minimale Stufe
+      - Erdgeschoss Helligkeit minimal
     intent:
       name: HassLightSet
       slots:
