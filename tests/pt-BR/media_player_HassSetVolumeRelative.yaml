@@ -1,3 +1,4 @@
+---
 language: pt-BR
 tests:
   # Área atual
@@ -13,6 +14,8 @@ tests:
       slots:
         area: "Sala"
         volume_step: "up"
+    response: "Volume alterado"
+
   - sentences:
       - "aumentar volume em 20%"
       - "aumentar o volume em 20 por cento"
@@ -26,6 +29,7 @@ tests:
         area: "Sala"
         volume_step: 20
     response: "Volume alterado"
+
   - sentences:
       - "diminuir volume"
       - "diminuir o volume"
@@ -65,6 +69,7 @@ tests:
         name: "TV"
         volume_step: "up"
     response: "Volume alterado"
+
   - sentences:
       - "aumentar volume da TV em 20%"
       - "aumentar o volume da TV em 20 por cento"
@@ -76,6 +81,7 @@ tests:
         name: "TV"
         volume_step: 20
     response: "Volume alterado"
+
   - sentences:
       - "diminuir volume da TV"
       - "diminuir o volume da TV"
@@ -87,6 +93,7 @@ tests:
         name: "TV"
         volume_step: "down"
     response: "Volume alterado"
+
   - sentences:
       - "diminuir volume da TV em 20%"
       - "diminuir o volume da TV em 20 por cento"
@@ -113,6 +120,7 @@ tests:
         area: "Sala"
         volume_step: "up"
     response: "Volume alterado"
+
   - sentences:
       - "aumentar volume da sala em 20%"
       - "aumentar o volume da sala em 20 por cento"
@@ -126,6 +134,7 @@ tests:
         area: "Sala"
         volume_step: 20
     response: "Volume alterado"
+
   - sentences:
       - "diminuir volume da sala"
       - "diminuir o volume da sala"
@@ -139,6 +148,7 @@ tests:
         area: "Sala"
         volume_step: "down"
     response: "Volume alterado"
+
   - sentences:
       - "diminuir volume da sala em 20%"
       - "diminuir o volume da sala em 20 por cento"
@@ -167,6 +177,7 @@ tests:
         floor: "Primeiro andar"
         volume_step: "up"
     response: "Volume alterado"
+
   - sentences:
       - "aumentar volume do primeiro andar em 20%"
       - "aumentar o volume do primeiro andar em 20 por cento"
@@ -180,6 +191,7 @@ tests:
         floor: "Primeiro andar"
         volume_step: 20
     response: "Volume alterado"
+
   - sentences:
       - "diminuir volume do primeiro andar"
       - "diminuir o volume do primeiro andar"
@@ -193,6 +205,7 @@ tests:
         floor: "Primeiro andar"
         volume_step: "down"
     response: "Volume alterado"
+
   - sentences:
       - "diminuir volume do primeiro andar em 20%"
       - "diminuir o volume do primeiro andar em 20 por cento"
