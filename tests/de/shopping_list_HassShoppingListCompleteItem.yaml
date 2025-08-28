@@ -3,6 +3,7 @@ tests:
   - sentences:
       #- (entferne|lösche|streiche) <item> (von|auf|aus) <meine_liste_dativ>
       - Entferne Milch von meiner Einkaufsliste
+      - Entferne Milch von meiner Einkaufs liste
       - Entferne Milch auf meiner Einkaufsliste
       - Entferne Milch aus meiner Einkaufsliste
       - Entferne Milch aus unserer Einkaufsliste
