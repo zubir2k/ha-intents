@@ -11,7 +11,7 @@ intents:
           - "<name>[ (auf|zu)] <brightness>[ dimmen]"
           - "<name> Helligkeit[ (auf|zu)] <brightness>"
           # min/max
-          - "[<setze> ]<name> auf [(die|das) ]{brightness_level:brightness}[ (Helligkeit[sstufe]|Stufe)]"
+          - "<setze> <name> auf [(die|das) ]{brightness_level:brightness}[ (Helligkeit[sstufe]|Stufe)]"
           - "<stelle> <name> auf [(die|das) ]{brightness_level:brightness}[ (Helligkeit[sstufe]|Stufe)][ ein]"
           - "<name> auf [(die|das) ]{brightness_level:brightness}[ (Helligkeit[sstufe]|Stufe)][ (<setzen_end_of_sentence>|dimmen)]"
           - "<setze> [die ]Helligkeit[ (von|vom)] <name> auf [(die|das) ]{brightness_level:brightness}[ Stufe]"
