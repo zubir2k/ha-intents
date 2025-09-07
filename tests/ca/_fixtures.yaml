@@ -301,6 +301,22 @@ entities:
     attributes:
       device_class: opening
 
+  - name: "Telèfon"
+    id: "binary_sensor.phone_battery"
+    state:
+      in: "normal"
+      out: "off"
+    attributes:
+      device_class: battery
+
+  - name: "Telèfon"
+    id: "binary_sensor.phone_battery_charging"
+    state:
+      in: "carregant"
+      out: "on"
+    attributes:
+      device_class: battery_charging
+
 timers:
   - is_active: false
     start_hours: 1
