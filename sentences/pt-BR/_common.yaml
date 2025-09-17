@@ -372,7 +372,7 @@ lists:
     wildcard: true
 
 expansion_rules:
-  abre: "(abra|abre|abrir)"
+  abrir: "(abra|abre|abrir)"
   adicionar: "(adicione|adiciona[r])"
   alarme: "(alarme[s]|cronômetro[s]|timer[s]|temporizador[es])"
   algum: "(algum|alguma|alguns|algumas)"
