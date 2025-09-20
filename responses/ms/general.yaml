@@ -1,0 +1,5 @@
+language: "ms"
+responses:
+  intents:
+    HassGetState:
+      default: "{name} {area, select, null{} other{di {area} }}berada dalam keadaan {state}."

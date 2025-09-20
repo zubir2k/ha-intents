@@ -1,0 +1,7 @@
+language: "ms"
+responses:
+  intents:
+    HassWaterHeaterSetTemperature:
+      default: "Suhu pemanas air ditetapkan kepada {temperature, number}°C."
+    HassWaterHeaterSetOperationMode:
+      default: "Mod pemanas air ditukar kepada {water_heater_mode}."
