@@ -1,0 +1,16 @@
+language: "ms"
+tests:
+  - sentences:
+      - "hidupkan semua lampu di dapur"
+    intent:
+      name: "HassTurnOn"
+      slots:
+        domain: "light"
+        area: "Dapur"
+  - sentences:
+      - "tetapkan kecerahan lampu di ruang tamu kepada 70 peratus"
+    intent:
+      name: "HassLightSet"
+      slots:
+        area: "Ruang Tamu"
+        brightness: 70

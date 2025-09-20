@@ -1,0 +1,6 @@
+language: "ms"
+tests:
+  - sentences:
+      - "cuaca hari ini macam mana"
+    intent:
+      name: "HassGetWeather"
