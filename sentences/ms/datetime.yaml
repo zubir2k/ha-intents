@@ -1,0 +1,12 @@
+language: "ms"
+intents:
+  HassGetCurrentDate:
+    data:
+      - sentences:
+          - "hari ini tarikh apa"
+          - "tarikh hari ini"
+  HassGetCurrentTime:
+    data:
+      - sentences:
+          - "pukul berapa sekarang"
+          - "masa sekarang"

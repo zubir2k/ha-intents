@@ -1,0 +1,7 @@
+language: "ms"
+intents:
+  HassSetTemperature:
+    data:
+      - sentences:
+          - "<set_verbs> suhu <di_area> kepada {temperature} [darjah] [celcius|celsius|°c]"
+          - "<set_verbs> suhu kepada {temperature} [darjah] [celcius|celsius|°c]"

@@ -1,0 +1,17 @@
+language: "ms"
+intents:
+  HassStartVacuum:
+    data:
+      - sentences:
+          - "mulakan {vacuums}"
+          - "mula vakum"
+  HassStopVacuum:
+    data:
+      - sentences:
+          - "hentikan {vacuums}"
+          - "stop vakum"
+  HassReturnToBase:
+    data:
+      - sentences:
+          - "kembali ke dok"
+          - "balik ke pangkalan"

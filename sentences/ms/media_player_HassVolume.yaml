@@ -1,0 +1,54 @@
+language: "ms"
+intents:
+  HassSetVolume:
+    data:
+      - sentences:
+          - "<set_verbs> volum kepada <volum>"
+          - "<set_verbs> volum <di_area> kepada <volum>"
+          - "volum <volum>"
+    requires_context:
+      domain: "media_player"
+  HassIncreaseVolume:
+    data:
+      - sentences:
+          - "<raise_verbs> volum"
+          - "<raise_verbs> volum <di_area>"
+    requires_context:
+      domain: "media_player"
+  HassDecreaseVolume:
+    data:
+      - sentences:
+          - "<lower_verbs> volum"
+          - "<lower_verbs> volum <di_area>"
+    requires_context:
+      domain: "media_player"
+  HassMediaMute:
+    data:
+      - sentences:
+          - "bisukan [bunyi|audio]"
+          - "mute"
+    requires_context:
+      domain: "media_player"
+  HassMediaUnmute:
+    data:
+      - sentences:
+          - "nyahbisu [bunyi|audio]"
+          - "unmute"
+    requires_context:
+      domain: "media_player"
+  HassMediaShuffle:
+    data:
+      - sentences:
+          - "aktifkan shuffle"
+          - "shuffle"
+          - "main rawak"
+    requires_context:
+      domain: "media_player"
+  HassMediaRepeat:
+    data:
+      - sentences:
+          - "aktifkan ulangan"
+          - "ulang"
+          - "repeat"
+    requires_context:
+      domain: "media_player"

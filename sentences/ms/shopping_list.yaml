@@ -1,0 +1,22 @@
+language: "ms"
+intents:
+  HassListAddItem:
+    data:
+      - sentences:
+          - "tambah {item} ke senarai belian"
+          - "masukkan {item} dalam senarai belian"
+  HassListRemoveItem:
+    data:
+      - sentences:
+          - "buang {item} dari senarai belian"
+          - "padam {item} dari senarai belian"
+  HassListCompleteItem:
+    data:
+      - sentences:
+          - "tandakan {item} sebagai siap"
+          - "selesaikan {item} dalam senarai belian"
+  HassListClear:
+    data:
+      - sentences:
+          - "kosongkan senarai belian"
+          - "padam semua dalam senarai belian"
