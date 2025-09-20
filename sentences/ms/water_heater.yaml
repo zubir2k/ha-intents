@@ -1,0 +1,10 @@
+language: "ms"
+intents:
+  HassWaterHeaterSetTemperature:
+    data:
+      - sentences:
+          - "<set_verbs> suhu pemanas air kepada {temperature} [darjah]"
+  HassWaterHeaterSetOperationMode:
+    data:
+      - sentences:
+          - "<set_verbs> mod pemanas air kepada {water_heater_mode}"

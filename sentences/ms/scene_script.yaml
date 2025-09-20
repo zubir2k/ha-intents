@@ -1,0 +1,16 @@
+language: "ms"
+intents:
+  HassTurnOnScene:
+    data:
+      - sentences:
+          - "<on_verbs> senario {name}"
+          - "aktifkan scene {name}"
+  HassTurnOffScene:
+    data:
+      - sentences:
+          - "<off_verbs> senario {name}"
+  HassActivateScript:
+    data:
+      - sentences:
+          - "aktifkan skrip {name}"
+          - "<on_verbs> skrip {name}"

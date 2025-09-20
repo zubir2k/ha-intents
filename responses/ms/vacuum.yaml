@@ -1,0 +1,9 @@
+language: "ms"
+responses:
+  intents:
+    HassStartVacuum:
+      default: "Robot vakum dimulakan."
+    HassStopVacuum:
+      default: "Robot vakum dihentikan."
+    HassReturnToBase:
+      default: "Robot vakum kembali ke dok."

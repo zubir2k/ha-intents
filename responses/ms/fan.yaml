@@ -1,0 +1,15 @@
+language: "ms"
+responses:
+  intents:
+    HassTurnOn:
+      context:
+        domain: fan
+      default: "{count, plural, =0{Tiada kipas dihidupkan} one{Kipas dihidupkan} other{{count} kipas dihidupkan}}{area, select, null{} other{ di {area}}}."
+    HassTurnOff:
+      context:
+        domain: fan
+      default: "{count, plural, =0{Tiada kipas dimatikan} one{Kipas dimatikan} other{{count} kipas dimatikan}}{area, select, null{} other{ di {area}}}."
+    HassSetPercentage:
+      context:
+        domain: fan
+      default: "Kelajuan kipas ditetapkan kepada {percentage, number}%."

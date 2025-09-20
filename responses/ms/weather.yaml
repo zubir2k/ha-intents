@@ -1,0 +1,9 @@
+language: "ms"
+responses:
+  intents:
+    HassGetWeather:
+      default: "Keadaan cuaca: {condition}."
+    HassGetTemperature:
+      default: "Suhu {temperature, number}°C."
+    HassGetForecast:
+      default: "Ramalan: {forecast}."

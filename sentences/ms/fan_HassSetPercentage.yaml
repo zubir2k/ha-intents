@@ -1,0 +1,12 @@
+language: "ms"
+intents:
+  HassSetPercentage:
+    data:
+      - sentences:
+          - "<set_verbs> kelajuan <name> kepada <peratus>"
+          - "<set_verbs> kelajuan <fans> <di_area> kepada <peratus>"
+          - "kelajuan <name> <peratus>"
+          - "<raise_verbs> kelajuan <name>"
+          - "<lower_verbs> kelajuan <name>"
+        requires_context:
+          domain: "fan"

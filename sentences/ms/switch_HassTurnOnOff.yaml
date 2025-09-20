@@ -1,0 +1,16 @@
+language: "ms"
+intents:
+  HassTurnOn:
+    data:
+      - sentences:
+          - "<on_verbs> <switches> <di_area>"
+          - "<on_verbs> <name> <di_area>"
+        slots:
+          domain: "switch"
+  HassTurnOff:
+    data:
+      - sentences:
+          - "<off_verbs> <switches> <di_area>"
+          - "<off_verbs> <name> <di_area>"
+        slots:
+          domain: "switch"

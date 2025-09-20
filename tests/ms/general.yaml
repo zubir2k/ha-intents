@@ -1,0 +1,9 @@
+language: "ms"
+tests:
+  - sentences:
+      - "status lampu ruang tamu"
+    intent:
+      name: "HassGetState"
+      slots:
+        name: "lampu"
+        area: "Ruang Tamu"

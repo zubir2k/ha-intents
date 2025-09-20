@@ -1,0 +1,11 @@
+language: "ms"
+responses:
+  intents:
+    HassSetTemperature:
+      default: "Suhu ditetapkan kepada {temperature, number}°C{area, select, null{} other{ di {area}}}."
+    HassClimateSetMode:
+      default: "Mod ditukar kepada {hvac_mode}."
+    HassClimateSetFanMode:
+      default: "Mod kipas ditukar kepada {fan_mode}."
+    HassClimateSetSwingMode:
+      default: "Mod ayun ditukar kepada {swing_mode}."

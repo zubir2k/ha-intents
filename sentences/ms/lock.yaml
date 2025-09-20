@@ -1,0 +1,12 @@
+language: "ms"
+intents:
+  HassLock:
+    data:
+      - sentences:
+          - "kunci {name} <di_area>"
+          - "<on_verbs> kunci {name} <di_area>"
+  HassUnlock:
+    data:
+      - sentences:
+          - "buka kunci {name} <di_area>"
+          - "nyahkunci {name} <di_area>"

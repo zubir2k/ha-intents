@@ -1,0 +1,10 @@
+language: "ms"
+intents:
+  HassHumidifierSetMode:
+    data:
+      - sentences:
+          - "<set_verbs> mod pelembap kepada {humidifier_mode}"
+  HassHumidifierSetHumidity:
+    data:
+      - sentences:
+          - "<set_verbs> kelembapan kepada <kelembapan>"

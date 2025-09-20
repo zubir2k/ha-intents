@@ -1,0 +1,11 @@
+language: "ms"
+responses:
+  intents:
+    HassOpenCover:
+      default: "{name, select, null{Penutup} other{{name}}} dibuka{area, select, null{} other{ di {area}}}."
+    HassCloseCover:
+      default: "{name, select, null{Penutup} other{{name}}} ditutup{area, select, null{} other{ di {area}}}."
+    HassStopCover:
+      default: "Pergerakan penutup dihentikan{area, select, null{} other{ di {area}}}."
+    HassSetPosition:
+      default: "Kedudukan ditetapkan kepada {position, number}%{area, select, null{} other{ di {area}}}."
