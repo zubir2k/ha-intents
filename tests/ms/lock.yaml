@@ -1,0 +1,9 @@
+language: "ms"
+tests:
+  - sentences:
+      - "kunci pintu di ruang tamu"
+    intent:
+      name: "HassLock"
+      slots:
+        name: "pintu"
+        area: "Ruang Tamu"

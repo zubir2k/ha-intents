@@ -1,0 +1,7 @@
+language: "ms"
+intents:
+  HassClimateSetSwingMode:
+    data:
+      - sentences:
+          - "<set_verbs> mod ayun <di_area> kepada {swing_mode}"
+          - "mod ayun {swing_mode}"

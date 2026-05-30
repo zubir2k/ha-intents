@@ -1,18 +1,15 @@
-language: ms
+language: "ms"
 intents:
   HassLightSet:
     data:
       - sentences:
-          - <imp_set> kecerahan <nama> [(jadi | menjadi | ke | kepada)] <kecerahan>
-          - <imp_set> <nama> [(jadi | menjadi | ke | kepada)] <kecerahan>
-        response: brightness
+          - "<set_verbs> kecerahan <name> kepada <kecerahan>"
+          - "<set_verbs> kecerahan <lights> <di_area> kepada <kecerahan>"
+          - "<raise_verbs> kecerahan <name>"
+          - "<lower_verbs> kecerahan <name>"
       - sentences:
-          - <imp_set> kecerahan <area> [(jadi | menjadi | ke | kepada)] <kecerahan>
-          - <imp_set> <area> [(jadi | menjadi | ke | kepada)] <kecerahan>
-        slots:
-          name: all
-        response: brightness_area
+          - "<set_verbs> warna <name> kepada {colors}"
+          - "<set_verbs> warna <lights> <di_area> kepada {colors}"
       - sentences:
-          - <imp_set> warna <nama> [(jadi | menjadi | ke | kepada)] {color}
-          - <imp_set> <nama> [(jadi | menjadi | ke | kepada)] {color}
-        response: color
+          - "<set_verbs> suhu warna <name> kepada {color_temp_mireds} [mireds|mired]"
+          - "<set_verbs> suhu warna <lights> <di_area> kepada {color_temp_mireds} [mireds|mired]"

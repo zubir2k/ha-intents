@@ -1,0 +1,17 @@
+language: "ms"
+intents:
+  HassGetWeather:
+    data:
+      - sentences:
+          - "cuaca [sekarang|hari ini] macam mana"
+          - "bagaimana cuaca hari ini"
+  HassGetTemperature:
+    data:
+      - sentences:
+          - "berapa suhu [sekarang]"
+          - "suhu [luar] berapa"
+  HassGetForecast:
+    data:
+      - sentences:
+          - "ramalan cuaca [esok|lusa]"
+          - "cuaca esok macam mana"

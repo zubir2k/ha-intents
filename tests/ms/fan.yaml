@@ -1,0 +1,10 @@
+language: "ms"
+tests:
+  - sentences:
+      - "tetapkan kelajuan kipas di ruang tamu kepada 60 peratus"
+    intent:
+      name: "HassSetPercentage"
+      slots:
+        domain: "fan"
+        area: "Ruang Tamu"
+        percentage: 60

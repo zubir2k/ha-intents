@@ -1,0 +1,7 @@
+language: "ms"
+responses:
+  intents:
+    HassLock:
+      default: "{name} dikunci{area, select, null{} other{ di {area}}}."
+    HassUnlock:
+      default: "{name} dinyahkunci{area, select, null{} other{ di {area}}}."

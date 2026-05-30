@@ -1,0 +1,6 @@
+language: "ms"
+tests:
+  - sentences:
+      - "kembali ke dok"
+    intent:
+      name: "HassReturnToBase"

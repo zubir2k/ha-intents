@@ -1,0 +1,8 @@
+language: "ms"
+tests:
+  - sentences:
+      - "tambah susu ke senarai belian"
+    intent:
+      name: "HassListAddItem"
+      slots:
+        item: "susu"

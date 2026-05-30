@@ -1,0 +1,14 @@
+language: "ms"
+tests:
+  - sentences:
+      - "tetapkan mod pelembap kepada auto"
+    intent:
+      name: "HassHumidifierSetMode"
+      slots:
+        humidifier_mode: "auto"
+  - sentences:
+      - "tetapkan kelembapan kepada 55 peratus"
+    intent:
+      name: "HassHumidifierSetHumidity"
+      slots:
+        humidity: 55

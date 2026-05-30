@@ -1,0 +1,12 @@
+language: "ms"
+tests:
+  - sentences:
+      - "laraskan volum kepada 40 peratus"
+    intent:
+      name: "HassSetVolume"
+      slots:
+        volume_level: 40
+  - sentences:
+      - "tingkatkan volum"
+    intent:
+      name: "HassIncreaseVolume"

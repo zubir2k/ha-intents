@@ -1,0 +1,69 @@
+language: "ms"
+responses:
+  intents:
+    HassTurnOn:
+      default: "{name, select, null{Dihidupkan} other{Menghidupkan {name}}}{area, select, null{} other{ di {area}}}."
+    HassTurnOff:
+      default: "{name, select, null{Dimatikan} other{Mematikan {name}}}{area, select, null{} other{ di {area}}}."
+    HassSetPercentage:
+      default: "Ditukar kepada {percentage, number}%."
+    HassSetTemperature:
+      default: "Suhu ditetapkan kepada {temperature, number}°C{area, select, null{} other{ di {area}}}."
+    HassStartTimer:
+      default: "Pemasa bermula untuk {duration}."
+    HassCancelTimer:
+      default: "Pemasa dibatalkan."
+    HassAddTimeToTimer:
+      default: "Ditambah {minutes, number} minit pada pemasa."
+    HassSubtractTimeFromTimer:
+      default: "Dikurangkan {minutes, number} minit dari pemasa."
+    HassTimerStatus:
+      default: "{time_left, select, null{Tiada pemasa aktif.} other{Baki masa pemasa: {time_left}.}}"
+    HassOpenCover:
+      default: "{name, select, null{Penutup} other{{name}}} dibuka{area, select, null{} other{ di {area}}}."
+    HassCloseCover:
+      default: "{name, select, null{Penutup} other{{name}}} ditutup{area, select, null{} other{ di {area}}}."
+    HassStopCover:
+      default: "Pergerakan penutup dihentikan{area, select, null{} other{ di {area}}}."
+    HassSetPosition:
+      default: "Kedudukan ditetapkan kepada {position, number}%{area, select, null{} other{ di {area}}}."
+    HassTurnOnScene:
+      default: "Senario {name} diaktifkan."
+    HassTurnOffScene:
+      default: "Senario {name} dinyahaktifkan."
+    HassActivateScript:
+      default: "Skrip {name} diaktifkan."
+    HassGetState:
+      default: "{name} {area, select, null{} other{di {area} }}berada dalam keadaan {state}."
+    HassGetCurrentDate:
+      default: "Tarikh hari ini {date}."
+    HassGetCurrentTime:
+      default: "Masa sekarang {time}."
+    HassGetWeather:
+      default: "Keadaan cuaca: {condition}."
+    HassGetTemperature:
+      default: "Suhu {temperature, number}°C."
+    HassGetForecast:
+      default: "Ramalan: {forecast}."
+    HassLock:
+      default: "{name} dikunci{area, select, null{} other{ di {area}}}."
+    HassUnlock:
+      default: "{name} dinyahkunci{area, select, null{} other{ di {area}}}."
+    HassStartVacuum:
+      default: "Robot vakum dimulakan."
+    HassStopVacuum:
+      default: "Robot vakum dihentikan."
+    HassReturnToBase:
+      default: "Robot vakum kembali ke dok."
+    HassHumidifierSetMode:
+      default: "Mod pelembap ditetapkan kepada {humidifier_mode}."
+    HassHumidifierSetHumidity:
+      default: "Kelembapan sasaran ditetapkan kepada {humidity, number}%."
+    HassDehumidifierSetMode:
+      default: "Mod nyah-lembap ditetapkan kepada {dehumidifier_mode}."
+    HassDehumidifierSetHumidity:
+      default: "Kelembapan sasaran ditetapkan kepada {humidity, number}%."
+    HassWaterHeaterSetTemperature:
+      default: "Suhu pemanas air ditetapkan kepada {temperature, number}°C."
+    HassWaterHeaterSetOperationMode:
+      default: "Mod pemanas air ditukar kepada {water_heater_mode}."

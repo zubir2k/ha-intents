@@ -1,0 +1,11 @@
+language: "ms"
+responses:
+  intents:
+    HassListAddItem:
+      default: "Ditambah: {item}."
+    HassListRemoveItem:
+      default: "Dibuang: {item}."
+    HassListCompleteItem:
+      default: "{item} ditandakan siap."
+    HassListClear:
+      default: "Senarai belian dikosongkan."

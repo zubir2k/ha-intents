@@ -1,0 +1,27 @@
+language: "ms"
+responses:
+  intents:
+    HassMediaPlay:
+      default: "Memainkan media."
+    HassMediaPause:
+      default: "Media dijeda."
+    HassMediaStop:
+      default: "Media dihentikan."
+    HassMediaNext:
+      default: "Lagu seterusnya."
+    HassMediaPrevious:
+      default: "Lagu sebelumnya."
+    HassSetVolume:
+      default: "Volum ditetapkan kepada {volume_level, number}%."
+    HassIncreaseVolume:
+      default: "Volum ditingkatkan."
+    HassDecreaseVolume:
+      default: "Volum diturunkan."
+    HassMediaMute:
+      default: "Audio dibisukan."
+    HassMediaUnmute:
+      default: "Audio dinyahbisu."
+    HassMediaShuffle:
+      default: "Shuffle diaktifkan."
+    HassMediaRepeat:
+      default: "Ulangan diaktifkan."

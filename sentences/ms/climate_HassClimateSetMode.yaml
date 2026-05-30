@@ -1,0 +1,7 @@
+language: "ms"
+intents:
+  HassClimateSetMode:
+    data:
+      - sentences:
+          - "<set_verbs> mod [hvac|penyaman udara] <di_area> kepada {hvac_mode}"
+          - "mod [hvac|penyaman udara] {hvac_mode}"

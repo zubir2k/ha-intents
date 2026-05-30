@@ -1,0 +1,7 @@
+language: "ms"
+intents:
+  HassClimateSetFanMode:
+    data:
+      - sentences:
+          - "<set_verbs> mod kipas <di_area> kepada {fan_mode}"
+          - "mod kipas {fan_mode}"

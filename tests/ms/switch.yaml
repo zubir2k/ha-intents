@@ -1,0 +1,9 @@
+language: "ms"
+tests:
+  - sentences:
+      - "buka suis di ruang tamu"
+    intent:
+      name: "HassTurnOn"
+      slots:
+        domain: "switch"
+        area: "Ruang Tamu"

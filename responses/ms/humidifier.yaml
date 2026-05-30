@@ -1,0 +1,7 @@
+language: "ms"
+responses:
+  intents:
+    HassHumidifierSetMode:
+      default: "Mod pelembap ditetapkan kepada {humidifier_mode}."
+    HassHumidifierSetHumidity:
+      default: "Kelembapan sasaran ditetapkan kepada {humidity, number}%."

@@ -1,9 +1,10 @@
-language: ms
+language: "ms"
 intents:
   HassTurnOn:
     data:
       - sentences:
-          - "<imp_hidup> [semua] lampu [di] <area>"
-          - "<imp_hidup> [semua] lampu <area>"
+          - "<on_verbs> <name> <di_area>"
+          - "<on_verbs> semua <lights> <di_area>"
+          - "<on_verbs> <lights> <di_area>"
         slots:
           domain: "light"

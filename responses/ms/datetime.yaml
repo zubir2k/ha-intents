@@ -1,0 +1,7 @@
+language: "ms"
+responses:
+  intents:
+    HassGetCurrentDate:
+      default: "Tarikh hari ini {date}."
+    HassGetCurrentTime:
+      default: "Masa sekarang {time}."

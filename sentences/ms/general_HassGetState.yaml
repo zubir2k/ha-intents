@@ -1,0 +1,9 @@
+language: "ms"
+intents:
+  HassGetState:
+    data:
+      - sentences:
+          - "status <name> <di_area>"
+          - "<name> [dekat|di] <area> menyala tak"
+          - "adakah <name> <di_area> menyala"
+          - "<name> <di_area> macam mana keadaannya"

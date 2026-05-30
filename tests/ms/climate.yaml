@@ -1,0 +1,14 @@
+language: "ms"
+tests:
+  - sentences:
+      - "set suhu kepada 24 darjah"
+    intent:
+      name: "HassSetTemperature"
+      slots:
+        temperature: 24
+  - sentences:
+      - "tetapkan mod penyaman udara kepada sejuk"
+    intent:
+      name: "HassClimateSetMode"
+      slots:
+        hvac_mode: "sejuk"

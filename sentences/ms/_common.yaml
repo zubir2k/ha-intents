@@ -1,56 +1,140 @@
-language: ms
-responses:
-  errors:
-    no_intent: "Maaf, saya tidak faham arahan anda"
-    no_area: "Tiada {{ area }} dijumpai"
-    no_domain_in_area: "{{ domain }} tiada di {{ area }}"
-    no_device_class_in_area: "{{ device_class }} tiada di {{ area }}"
-    no_entity: "Peranti atau entiti {{ entity }} tidak ditemui"
-    handle_error: "Maaf, berlaku ralat semasa intent sedang dijalankan"
+language: "ms"
+
 lists:
-  color:
+  area:
+    values: "<area>"
+  name:
+    values: "<name>"
+  lights:
     values:
-      - in: "putih"
-        out: "white"
-      - in: "hitam"
-        out: "black"
-      - in: "merah"
-        out: "red"
-      - in: "oren"
-        out: "orange"
-      - in: "kuning"
-        out: "yellow"
-      - in: "hijau"
-        out: "green"
-      - in: "biru"
-        out: "blue"
-      - in: "ungu"
-        out: "purple"
-      - in: "perang"
-        out: "brown"
+      - "lampu"
+      - "lampu-lampu"
+  fans:
+    values:
+      - "kipas"
+      - "kipas-kipas"
+  covers:
+    values:
+      - "langsir"
+      - "tirai"
+      - "pintu garaj"
+      - "bidai"
+  switches:
+    values:
+      - "suis"
+      - "plug"
+      - "palam pintar"
+  locks:
+    values:
+      - "kunci"
+      - "pintu"
+      - "selak"
+  vacuums:
+    values:
+      - "vakum"
+      - "robot vakum"
+  humidifier_mode:
+    values:
+      - "auto"
+      - "tinggi"
+      - "sederhana"
+      - "rendah"
+  dehumidifier_mode:
+    values:
+      - "auto"
+      - "tinggi"
+      - "sederhana"
+      - "rendah"
+  water_heater_mode:
+    values:
+      - "eco"
+      - "auto"
+      - "pantas"
+  colors:
+    values:
+      - "merah"
+      - "hijau"
+      - "biru"
+      - "kuning"
+      - "putih"
+      - "ungu"
+      - "jingga"
+      - "merah jambu"
+      - "cyan"
+  hvac_mode:
+    values:
+      - "sejuk"
+      - "panas"
+      - "auto"
+      - "eco"
+      - "mati"
+  fan_mode:
+    values:
+      - "tinggi"
+      - "sederhana"
+      - "rendah"
+      - "auto"
+  swing_mode:
+    values:
+      - "ayun"
+      - "tidak ayun"
+  on_verbs:
+    values:
+      - "hidupkan"
+      - "nyalakan"
+      - "buka"
+      - "aktifkan"
+  off_verbs:
+    values:
+      - "matikan"
+      - "padamkan"
+      - "tutup"
+      - "nyahaktifkan"
+  set_verbs:
+    values:
+      - "tetapkan"
+      - "set"
+      - "laraskan"
+  raise_verbs:
+    values:
+      - "tingkatkan"
+      - "naikkan"
+      - "tambah"
+  lower_verbs:
+    values:
+      - "turunkan"
+      - "kurangkan"
+  percent:
+    range: "1..100"
   brightness:
-    range:
-      type: "percentage"
-      from: 0
-      to: 100
+    range: "1..100"
+  humidity:
+    range: "30..90"
   temperature:
-    range:
-      type: "temperature"
-      from: 0
-      to: 100
+    range: "10..80"
+  color_temp_mireds:
+    range: "150..500"
+  position:
+    range: "0..100"
+  volume:
+    range: "0..100"
+  minutes:
+    range: "1..120"
+
 expansion_rules:
-  nama: "{name}"
-  area: "{area}"
-  apakah: "(apa | apakah | apa itu)"
-  berapa: "(berapa | berapakah)"
-  imp_hidup: "(nyalakan | hidupkan)"
-  imp_mati: "(padamkan | matikan)"
-  imp_buka: "(buka | bukakan)"
-  imp_tutup: "(tutup | tutupkan)"
-  imp_set: "(tetapkan | setkan | set | jadikan | ubahkan | ubah | tukarkan | tukar)"
-  kecerahan: "{brightness}[%| peratus]"
-  suhu: "{temperature}[°| darjah]"
+  di_area: "[di] {area}"
+  peratus: "{percent} [peratus]"
+  kecerahan: "{brightness} [peratus]"
+  volum: "{volume} [peratus]"
+  kelembapan: "{humidity} [peratus]"
+  tambah_minit: "{minutes} [minit]"
+  suhu_c: "{temperature} [darjah] [celcius|celsius|°c]"
+
 skip_words:
   - "tolong"
-  - "boleh tak"
-  - "cuba"
+  - "sila"
+  - "ya"
+  - "ok"
+  - "boleh"
+  - "tolonglah"
+  - "cepat"

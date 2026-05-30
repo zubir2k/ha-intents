@@ -1,0 +1,13 @@
+language: "ms"
+responses:
+  intents:
+    HassTurnOn:
+      context:
+        domain: light
+      default: "{count, plural, =0{Tiada lampu dihidupkan} one{Lampu dihidupkan} other{{count} lampu dihidupkan}}{area, select, null{} other{ di {area}}}."
+    HassTurnOff:
+      context:
+        domain: light
+      default: "{count, plural, =0{Tiada lampu dimatikan} one{Lampu dimatikan} other{{count} lampu dimatikan}}{area, select, null{} other{ di {area}}}."
+    HassLightSet:
+      default: "Tetapan lampu dikemas kini."

@@ -1,0 +1,37 @@
+language: "ms"
+intents:
+  HassMediaPlay:
+    data:
+      - sentences:
+          - "<on_verbs> mainkan [muzik|audio|video] <di_area>"
+          - "mainkan <name> <di_area>"
+        requires_context:
+          domain: "media_player"
+  HassMediaPause:
+    data:
+      - sentences:
+          - "jeda [muzik|audio|video] <di_area>"
+          - "hentikan sekejap [main|mainan] <di_area>"
+        requires_context:
+          domain: "media_player"
+  HassMediaStop:
+    data:
+      - sentences:
+          - "henti [main|mainan|media]"
+          - "berhenti main"
+        requires_context:
+          domain: "media_player"
+  HassMediaNext:
+    data:
+      - sentences:
+          - "seterusnya"
+          - "lagu seterusnya"
+        requires_context:
+          domain: "media_player"
+  HassMediaPrevious:
+    data:
+      - sentences:
+          - "sebelumnya"
+          - "lagu sebelumnya"
+        requires_context:
+          domain: "media_player"

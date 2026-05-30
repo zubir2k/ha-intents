@@ -1,0 +1,15 @@
+language: "ms"
+tests:
+  - sentences:
+      - "tutup tirai di dapur"
+    intent:
+      name: "HassCloseCover"
+      slots:
+        area: "Dapur"
+  - sentences:
+      - "tetapkan kedudukan langsir di ruang tamu kepada 50 peratus"
+    intent:
+      name: "HassSetPosition"
+      slots:
+        area: "Ruang Tamu"
+        position: 50

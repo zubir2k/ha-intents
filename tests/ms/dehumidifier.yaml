@@ -1,0 +1,8 @@
+language: "ms"
+tests:
+  - sentences:
+      - "tetapkan mod nyah-lembap kepada auto"
+    intent:
+      name: "HassDehumidifierSetMode"
+      slots:
+        dehumidifier_mode: "auto"

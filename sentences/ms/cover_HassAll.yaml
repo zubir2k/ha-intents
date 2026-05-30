@@ -1,0 +1,21 @@
+language: "ms"
+intents:
+  HassOpenCover:
+    data:
+      - sentences:
+          - "buka <covers> <di_area>"
+          - "<on_verbs> <covers> <di_area>"
+  HassCloseCover:
+    data:
+      - sentences:
+          - "tutup <covers> <di_area>"
+          - "<off_verbs> <covers> <di_area>"
+  HassStopCover:
+    data:
+      - sentences:
+          - "hentikan <covers> <di_area>"
+          - "stop <covers> <di_area>"
+  HassSetPosition:
+    data:
+      - sentences:
+          - "<set_verbs> kedudukan <covers> <di_area> kepada {position} [peratus]"

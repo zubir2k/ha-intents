@@ -1,0 +1,28 @@
+language: "ms"
+intents:
+  HassStartTimer:
+    data:
+      - sentences:
+          - "mula [pemasa|timer] [selama] {duration}"
+          - "tetapkan pemasa [selama] {duration}"
+  HassCancelTimer:
+    data:
+      - sentences:
+          - "batalkan [pemasa|timer]"
+          - "hentikan [pemasa|timer]"
+  HassAddTimeToTimer:
+    data:
+      - sentences:
+          - "tambah <tambah_minit> pada pemasa"
+          - "lanjutkan pemasa <tambah_minit>"
+  HassSubtractTimeFromTimer:
+    data:
+      - sentences:
+          - "kurangkan <tambah_minit> dari pemasa"
+          - "pendekkan pemasa <tambah_minit>"
+  HassTimerStatus:
+    data:
+      - sentences:
+          - "status pemasa"
+          - "berapa masa tinggal untuk pemasa"
+          - "bila pemasa tamat"

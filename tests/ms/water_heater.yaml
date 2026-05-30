@@ -1,0 +1,8 @@
+language: "ms"
+tests:
+  - sentences:
+      - "tetapkan suhu pemanas air kepada 50 darjah"
+    intent:
+      name: "HassWaterHeaterSetTemperature"
+      slots:
+        temperature: 50
